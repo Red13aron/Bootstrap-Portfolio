@@ -4,60 +4,158 @@
 <head>
   <meta charset="UTF-8">
   <title>Portfolio | Your Name</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Your Name</a>
-      <nav>
-        <a href="index.html">About</a>
-        <a href="portfolio.html">Portfolio</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+  <nav class="navbar border-bottom navbar-expand-sm sticky-top navbar-light bg-white">
+    <div class="container" style = "width:960px;">
+        <a href="index.html" class="navbar-brand h3 text-white bg-info p-3" id="logo">Shane Nelson</a>
+        <div class="navbar-nav ml-auto text-muted justify-content-end">
+          <a href="index.html" class="nav-item border-right nav-link active">About</a>
+          <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+          <a href="contact.html" class="nav-item border-left nav-link">Contact</a>
+        </div>
     </div>
-  </header>
+  </nav>
 
-  <div id="main-container" class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess">
-
-        <h3>Word Guess</h3>
+  <div class="container bg-white mt-5 d-flex" style="width:960px; height:960px;">
+    <div class ="row">
+      <div class = "col-12-sm">
+          <h1>Portfolio</h1>
       </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game">
-
-        <h3>RPG Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game">
-
-        <h3>Trivia Game</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget">
-
-        <h3>Rutgers Info Widget</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors">
-
-        <h3>Rock Paper Scissors</h3>
-      </div>
-
-    </section>
-
-  </div>
-
-  <footer>
-    <div class="container">
-      Copyright &copy;
     </div>
+
+    <div class ="row">
+      <div class = "col-sm-12">
+
+          <div class="card bg-dark text-white" style="width:200px; height:200px;">
+              <img class="card-img" src="assets/images/technics-q-c-640-480-1.jpg" alt="Word Guess" style="width:200px; height:200px;">
+              <div class = "card-img-overlay">
+                <div class = "w-100 text-center card-text p-3">
+    
+                </div>
+                <div class = "w-100 text-center card-text p-3">
+    
+                  </div>
+                  <div class = "w-100 text-center card-text p-3">
+    
+                    </div>
+                <div class ="w-100 text-center bg-info card-text p-3" style="width:300px;">
+                  Word Guess
+                </div>
+              </div>
+          </div>
+    
+      </div>
+      
+      <div class = "col-sm">
+
+          <div class="card bg-dark text-white" style="width:200px; height:200px;">
+              <img class="card-img" src="assets/images/technics-q-c-640-480-2.jpg" alt="RPG Game" style="width:200px; height:200px;">
+              <div class = "card-img-overlay">
+                <div class = "w-100 text-center card-text p-3">
+    
+                </div>
+                <div class = "w-100 text-center card-text p-3">
+    
+                  </div>
+                  <div class = "w-100 text-center card-text p-3">
+    
+                    </div>
+                <div class ="w-100 text-center bg-info card-text p-3" style="width:300px;">
+                  RPG Game
+                </div>
+              </div>
+          </div>
+
+      </div>
+    </div>
+
+    <div class = "row">
+      <div class = "col-sm">
+          <div class="card bg-dark text-white" style="width:200px; height:200px;">
+              <img class="card-img" src="assets/images/technics-q-c-640-480-5.jpg" alt="Trivia Game" style="width:200px; height:200px;">
+              <div class = "card-img-overlay">
+                <div class = "w-100 text-center card-text p-3">
+    
+                </div>
+                <div class = "w-100 text-center card-text p-3">
+    
+                  </div>
+                  <div class = "w-100 text-center card-text p-3">
+    
+                    </div>
+                <div class ="w-100 text-center bg-info card-text p-3" style="width:300px;">
+                  Trivia Game
+                </div>
+              </div>
+          </div>
+      </div>
+      
+      <div class = "col-sm">
+        
+          <div class="card bg-dark text-white" style="width:200px; height:200px;">
+              <img class="card-img" src="assets/images/technics-q-c-640-480-7.jpg" alt="Rutgers Info Widget" style="width:200px; height:200px;">
+              <div class = "card-img-overlay">
+                <div class = "w-100 text-center card-text p-3">
+    
+                </div>
+                <div class = "w-100 text-center card-text p-3">
+    
+                  </div>
+                  <div class = "w-100 text-center card-text p-3">
+    
+                    </div>
+                <div class ="w-100 text-center bg-info card-text p-3" style="width:300px;">
+                  Rutgers Info Widget
+                </div>
+              </div>
+          </div>
+
+      </div>
+    </div>
+    
+    <div class="row">
+      <div class ="col-sm">
+          <div class="card bg-dark text-white" style="width:200px; height:200px;">
+              <img class="card-img" src="assets/images/technics-q-c-640-480-9.jpg" alt="Rock Paper Scissors" style="width:200px; height:200px;">
+              <div class = "card-img-overlay">
+                <div class = "w-100 text-center card-text p-3">
+    
+                </div>
+                <div class = "w-100 text-center card-text p-3">
+    
+                  </div>
+                  <div class = "w-100 text-center card-text p-3">
+    
+                    </div>
+                <div class ="w-100 text-center bg-info card-text p-3" style="width:300px;">
+                  Rock Paper Scissors
+                </div>
+              </div>
+          </div>
+      </div>
+      </div>
+      <div class = "col-sm">
+
+      </div>
+    </div>
+
+    
+     
+
+
+
+
+
+      
+
+  <footer class="footer mt-auto border-top border-info py-3 bg-dark text-center text-white-50 w-100" style="position: fixed; bottom:0;" id="bigTopBorder">
+    Copyright &copy;
   </footer>
 </body>
 
